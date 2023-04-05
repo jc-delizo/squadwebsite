@@ -1,68 +1,68 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/contentmod1.png',
+    title: 'Content Moderation',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/realestate2.png',
+    title: 'Real Estate',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/humanresources.png',
+    title: 'Human resources',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/dataentry.png',
+    title: 'Data Entry and Management',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/digitalmarketing.png',
+    title: 'Digital marketing',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Reviewing user-generated content',
+  'Enforcing platform policies',
+  'Managing monetization',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Helping You Find Your Dream Home',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Expert guidance to find your dream home.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Dedicated Real Estate Agents',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Dedicated agents committed to your satisfaction.',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/superbam.png',
+    title: 'SuperBam',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/ayala.png',
+    title: 'Ayala Land',
     subtitle:
         'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/clutch.png',
+    title: 'Clutch',
     subtitle:
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },

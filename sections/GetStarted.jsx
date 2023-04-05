@@ -17,11 +17,11 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={planetVariants('left')}
+        variants={fadeIn('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img 
-          src="/get-started.png"
+          src="/contentmod2.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -30,8 +30,8 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Metaverses Works"/>
-        <TitleText title={<>Get started with just a few clicks</>}/>
+        <TypingText title="| Filtering and Screening" textStyles="text-black"/>
+        <TitleText title={<>Content Moderation</>} textStyles="text-black"/>
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps 

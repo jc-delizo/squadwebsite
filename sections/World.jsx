@@ -17,13 +17,13 @@ const World = () => (
     >
       <TypingText 
         title="| People on the World"
-        textStyles="text-center"
+        textStyles="text-center text-black"
       />
       <TitleText 
         title={<>
           Track friends around you and invite them to play together in the same world
         </>}
-        textStyles="text-center"
+        textStyles="text-center text-black"
       />
     </motion.div>
     <motion.div

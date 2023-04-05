@@ -17,12 +17,12 @@ const Insights = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText 
-        title="| Insight" 
-        textStyles="text-center"
+        title="| Projects" 
+        textStyles="text-center text-black"
       />
       <TitleText 
-        title="Insight about metaverse" 
-        textStyles="text-center"
+        title="Explore the Projects" 
+        textStyles="text-center text-black"
       />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((insight, index) => (

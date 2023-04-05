@@ -9,8 +9,8 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
         className="w-1/2 h-1/2 object-contain"
       />
     </div>
-    <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">Title {title}</h1>
-    <p className="flex-1 mt-[16px] font-normal text-[18px] text-[#b0b0b0] leading-[32px]">{subtitle}</p>
+    <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-black">Title {title}</h1>
+    <p className="flex-1 mt-[16px] font-normal text-[18px] text-black leading-[32px]">{subtitle}</p>
   </div>
 );
 
