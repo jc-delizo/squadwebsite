@@ -10,18 +10,15 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} py-8 relative cursor-pointer`}
   >
     <div className="absolute w-[50%] inset-0" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-      {/* <img
-        src="/search.svg"
-        alt="search"
-        className="w-[24px] h-[24px] object-contain"
-      /> */}
-      <h2 className="font-extrabold text-[24px] leading-[30px] text-black">
-        SQUAD
-      </h2>
+      <img
+        src="/scssfavicon.svg"
+        alt="logo"
+        className="h-[50px] object-contain"
+      />
       <div className="flex">
         <h2 className="font-normal px-3 text-[20px] leading-[30px] text-black">
           Explore
