@@ -14,11 +14,11 @@ const Navbar = () => (
   >
     <div className="absolute w-[50%] inset-0" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-      <img
+      {/* <img
         src="/scssfavicon.svg"
         alt="logo"
         className="h-[50px] object-contain"
-      />
+      /> */}
       <div className="flex">
         <h2 className="font-normal px-3 text-[20px] leading-[30px] text-black">
           Explore
