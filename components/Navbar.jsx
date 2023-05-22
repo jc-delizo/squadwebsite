@@ -27,11 +27,11 @@ const Navbar = () => (
           Contact
         </h2>
       </div>
-      <img
+      {/* <img
         src="/menu.svg"
         alt="menu"
         className="w=[24px] h-[24px] object-contain"
-      />
+      /> */}
     </div>
   </motion.nav>
 );
